@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu;
+  /* color: white; */
+  font-weight: 600;
+}
+
+/* NAVBAR COMPONENT STYLES BEGINS*/
+
+#navbar {
+  background-color: #333333;
+}
+
+.navbar-brand {
+  color: rgba(0, 255, 213, 0.884) !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(110%);
+}
+
+.navbar-toggler {
+  color: black !important;
+  outline: none !important;
+  cursor: pointer;
+  background: none !important;
+  border: none !important;
+}
+
+#remove,
+#bar {
+  color: white;
+  font-weight: normal;
+}
+
+#remove {
+  display: none;
+}
+
+/* NAVBAR COMPONENT STYLES ENDS */
+
+/* BODY STYLES BEGINS */
+.pd-section {
+  margin: 20px 0px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.head {
+  font-size: 30px;
+  padding: 30px 0px;
+}
+
+.pd-images {
+  width: 150px;
+  height: 150px;
+}
+
+.pd-text {
+  font-size: 20px;
+}
+
+.pd-price {
+  color: red;
+  font-weight: 700;
+  border: none;
+}
+
+.checkout-section {
+  margin: 20px 0px;
+  background-color: #333333;
+  border-radius: 10px;
+  color: white;
+}
+
+.pd-check {
+  color: rgb(17, 211, 17);
+  font-size: 30px;
+}
+
+.btn-white {
+  background-color: white;
+  font-size: 20px;
+  color: rgb(17, 211, 17);
+}
+#err{
+  color: red;
+  display: none;
+}
+
+#checked {
+  display: none;
+}
+
+#output {
+  font-size: 20px;
+  font-weight: 500;
+}
+/* FOOTER */
+
+#footer {
+  background-color: #f4f4f4;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
